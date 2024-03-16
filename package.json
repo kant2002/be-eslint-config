@@ -1,5 +1,5 @@
 {
-    "name": "@diia-inhouse/eslint-config",
+    "name": "@kant2002-diia-inhouse/eslint-config",
     "version": "3.5.0",
     "description": "common eslint config",
     "author": "Diia",
@@ -14,14 +14,14 @@
         "semantic-release": "semantic-release"
     },
     "commitlint": {
-        "extends": "@diia-inhouse/configs/dist/commitlint"
+        "extends": "@kant2002-diia-inhouse/configs/dist/commitlint"
     },
     "prettier": "./prettier.js",
     "release": {
-        "extends": "@diia-inhouse/configs/dist/semantic-release/package"
+        "extends": "@kant2002-diia-inhouse/configs/dist/semantic-release/package"
     },
     "dependencies": {
-        "@diia-inhouse/eslint-plugin": "1.6.0",
+        "@kant2002-diia-inhouse/eslint-plugin": "1.6.0",
         "@typescript-eslint/eslint-plugin": "6.10.0",
         "@typescript-eslint/parser": "6.10.0",
         "eslint": "8.53.0",
@@ -39,7 +39,7 @@
         "prettier": "3.0.3"
     },
     "devDependencies": {
-        "@diia-inhouse/configs": "1.26.3",
+        "@kant2002-diia-inhouse/configs": "1.27.1",
         "lockfile-lint": "4.12.1",
         "madge": "6.1.0",
         "semantic-release": "21.1.2"

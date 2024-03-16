@@ -1,7 +1,7 @@
 module.exports = {
     root: true,
     parser: '@typescript-eslint/parser',
-    plugins: ['@typescript-eslint', '@diia-inhouse', 'import', 'jest', 'todo-plz', 'promise', 'regexp'],
+    plugins: ['@typescript-eslint', '@kant2002-diia-inhouse', 'import', 'jest', 'todo-plz', 'promise', 'regexp'],
     extends: [
         'eslint:recommended',
         'airbnb-typescript/base',
@@ -41,12 +41,12 @@ module.exports = {
             {
                 pathGroups: [
                     {
-                        pattern: '@diia-inhouse/diia-app',
+                        pattern: '@kant2002-diia-inhouse/diia-app',
                         group: 'external',
                         position: 'after',
                     },
                     {
-                        pattern: '@diia-inhouse/**',
+                        pattern: '@kant2002-diia-inhouse/**',
                         group: 'external',
                         position: 'after',
                     },
@@ -191,7 +191,7 @@ module.exports = {
         'todo-plz/ticket-ref': ['error', { pattern: 'BACK-[0-9]+' }],
         '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public' }],
         '@typescript-eslint/no-inferrable-types': 'error',
-        '@diia-inhouse/logger-err-field': 'error',
+        '@kant2002-diia-inhouse/logger-err-field': 'error',
         'sort-imports': [
             'error',
             {
